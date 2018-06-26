@@ -33,3 +33,11 @@ alpha = 0.1;
 
 %gradient descent function to fit out parameters
 theta = gradient_descent(theta, X, y, alpha, lambda, 50);
+
+test = [5, 2, 6, 80]
+test = mapFeature(test);
+
+test([2 : end]) = test([2 : end]) - mu;
+test([2 : end]) = test([2 : end]) ./ sigma;
+
+fprintf('The percentage for the test case is %f\n', (test * theta));

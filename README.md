@@ -8,4 +8,4 @@ It also uses regularisation to prevent overfitting.
 It tries to fit the features on second order polynomial.
 Also this is made using Octave, I think it should also work in Matlab.
 
-![alt text](https://raw.githubusercontent.com/gulshan17/Marks-Predictor/branch/path/to/demo.png)
+![alt text](https://raw.githubusercontent.com/gulshan17/Marks-Predictor/master/demo.png)
